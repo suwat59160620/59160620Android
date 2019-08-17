@@ -8,12 +8,14 @@
         tools:context=".MainActivity">
 
     <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="@string/box_one"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginLeft="@dimen/margin_wide"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:layout_marginRight="@dimen/margin_wide" android:fontFamily="@font/roboto"
+            android:textSize="@dimen/box_text_size" style="@style/whiteBox" android:id="@+id/box_one_text"/>
 
 </android.support.constraint.ConstraintLayout>
